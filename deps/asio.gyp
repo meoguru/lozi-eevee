@@ -3,13 +3,6 @@
     {
       'target_name': 'asio',
       'type': 'static_library',
-      'xcode_settings': {
-        'OTHER_CFLAGS': [
-          '-std=c++11',
-          '-stdlib=libc++',
-          '-Wno-deprecated',
-        ],
-      },
       'defines': [
         'ASIO_STANDALONE',
         'ASIO_SEPARATE_COMPILATION',
@@ -21,7 +14,7 @@
       'include_dirs': [
         'asio/asio/include',
       ],
-      'all_dependent_settings': {
+      'direct_dependent_settings': {
         'defines': [
           'ASIO_STANDALONE',
         ],

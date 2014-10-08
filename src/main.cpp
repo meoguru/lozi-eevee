@@ -12,7 +12,7 @@
 #include <asio/ip/tcp.hpp>
 #include <json11/json11.hpp>
 
-int main(int argc, char *argv[]) {
+int main() {
   try {
     std::string host = "lozi.vn";
     std::string path = "/trang-chu.json?city=Hồ+Chí+Minh";

@@ -1,17 +1,19 @@
 {
   'targets': [
     {
-      'target_name': 'json11',
+      'target_name': 'gtest',
       'type': 'static_library',
       'sources': [
-        'json11/json11.cpp'
+        'gtest/src/gtest-all.cc',
+        'gtest/src/gtest_main.cc',
       ],
       'include_dirs': [
-        'json11',
+        'gtest',
+        'gtest/include',
       ],
       'direct_dependent_settings': {
         'include_dirs': [
-          '.',
+          'gtest/include',
         ],
       },
     },
