@@ -11,6 +11,7 @@
       },
       'dependencies': [
         'deps/json11.gyp:json11',
+        'deps/asio.gyp:asio',
       ],
       'sources': [
         'src/main.cpp',
