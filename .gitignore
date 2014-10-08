@@ -1,0 +1,8 @@
+# Build files
+/build/
+
+# GYP
+/deps/gyp
+
+# Misc
+.DS_Store
