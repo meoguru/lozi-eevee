@@ -14,7 +14,7 @@
       'include_dirs': [
         'asio/asio/include',
       ],
-      'direct_dependent_settings': {
+      'all_dependent_settings': {
         'defines': [
           'ASIO_STANDALONE',
         ],
